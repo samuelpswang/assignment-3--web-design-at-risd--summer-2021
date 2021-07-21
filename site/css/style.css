@@ -34,3 +34,30 @@ div {
     margin-bottom: 16px;
 }
 
+.header__title {
+    /* text properties */
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-size: 36px;
+    font-weight: 700;
+    /* positioning */
+    text-align: center;
+    /* padding */
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header__author {
+    /* text properties */
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-weight: 700;
+    color: #909095;
+    line-height: 1;
+    /* positioning */
+    text-align: center;
+    /* padding reset */
+    padding-left: 0;
+    margin-bottom: 0;
+    /* padding reset */
+    padding-bottom: 16px;
+}
+
