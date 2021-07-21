@@ -68,42 +68,43 @@ const ruleTen = `
 </div>
 `;
 
+// I know this is inefficient programming...
 function buttonOne() {
-    console.log("buttonOne()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleOne;
 }
 
 function buttonTwo() {
-    console.log("buttonTwo()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleTwo;
 }
 
 function buttonThree() {
-    console.log("buttonThree()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleThree;
 }
 
 function buttonFour() {
-    console.log("buttonFour()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleFour;
 }
 
 function buttonFive() {
-    console.log("buttonFive()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleFive;
 }
 
 function buttonSix() {
-    console.log("buttonSix()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleSix;
 }
 
 function buttonSeven() {
-    console.log("buttonSeven()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleSeven;
 }
 
 function buttonEight() {
-    console.log("buttonEight()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleEight;
 }
 
 function buttonNine() {
-    console.log("buttonNine()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleNine;
 }
 
 function buttonTen() {
-    console.log("buttonTen()");
+    document.getElementsByTagName("main")[0].innerHTML = ruleTen;
 }
