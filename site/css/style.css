@@ -61,3 +61,8 @@ div {
     padding-bottom: 16px;
 }
 
+.main__button-line {
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
