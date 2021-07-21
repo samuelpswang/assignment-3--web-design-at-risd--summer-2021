@@ -3,4 +3,5 @@
 !.gitignore
 !css/
 !img/
+!script/
 !*.html
