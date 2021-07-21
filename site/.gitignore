@@ -1,7 +1,9 @@
 *
 
 !.gitignore
+!.gittrack
 !css/
-!img/
 !script/
+!img/
+!*.js
 !*.html
