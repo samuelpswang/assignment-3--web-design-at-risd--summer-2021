@@ -1,0 +1,42 @@
+button {
+    width: 228px;
+    height: 45px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+
+    font-family:  "Roboto Mono", "Courier", monospace;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+
+    background-color: gray;
+    box-shadow: black;
+    border: none;
+}
+
+button:focus {
+    text-shadow: 0 0 2px white;
+}
+
+.ui__button-line {
+    
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: none;
+}
+
+.ui__button-how-to {
+    background-color: red;
+    color: darkgray;
+}
+
+.ui__button-see-all {
+    background-color: darkcyan;
+    color: darkgray;
+}
